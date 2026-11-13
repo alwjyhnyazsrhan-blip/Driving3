@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="locatBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="pinMint" x1="256" y1="260" x2="256" y2="416" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#locatBg)" />
+  <circle cx="256" cy="256" r="168" stroke="#6ee7b7" stroke-opacity="0.7" stroke-width="8" />
+  <circle cx="256" cy="256" r="136" stroke="#a7f3d0" stroke-opacity="0.3" stroke-width="5" />
+  <path d="M256 122C195.2 122 146 171.2 146 232C146 304.5 232.6 382.2 248.4 395.8C252.8 399.6 259.2 399.6 263.6 395.8C279.4 382.2 366 304.5 366 232C366 171.2 316.8 122 256 122Z" fill="#ffffff" />
+  <path d="M256 398C268 387 308 350 332 314H180C204 350 244 387 256 398Z" fill="url(#pinMint)" />
+  <circle cx="256" cy="226" r="42" fill="#065f46" />
+  <circle cx="256" cy="226" r="22" fill="#ffffff" />
+  <path d="M158 294C178 334 252 332 324 276L302 256L378 232L356 308L334 288C256 354 166 354 158 294Z" fill="#ffffff" stroke="#064e3b" stroke-width="10" stroke-linejoin="round" />
+</svg>
